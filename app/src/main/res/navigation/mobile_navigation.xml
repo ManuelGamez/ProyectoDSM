@@ -22,4 +22,9 @@
         android:name="com.example.proyectodsm.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_carritocompras"
+        android:name="com.example.proyectodsm.ui.CarritoCompra.carritocompra"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/activity_carritode_compra" />
 </navigation>
