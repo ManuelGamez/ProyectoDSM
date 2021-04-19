@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/tvHistorialProd"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingBottom="4dp"
+            android:text="@string/titulo_historial"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingTop="8dp"
+            android:paddingBottom="10dp"
+            android:text="@string/fechacompra"
+            android:textSize="15sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="8dp">
+
+
+            <ImageView
+                android:id="@+id/imageButton2"
+                android:layout_width="71dp"
+                android:layout_height="62dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/todo"
+                tools:src="@drawable/ic_baseline_insert_photo_24" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:text="@string/titulo_del_producto"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvPrecio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:text="@string/precioprod"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/fechacompraprod3"
+            android:textAlignment="center" />
+
+
+
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingTop="8dp"
+            android:paddingBottom="10dp"
+            android:text="@string/fechacompra"
+            android:textSize="15sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="8dp">
+
+
+            <ImageView
+                android:id="@+id/imageButton2"
+                android:layout_width="71dp"
+                android:layout_height="62dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/todo"
+                tools:src="@drawable/ic_baseline_insert_photo_24" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:text="@string/titulo_del_producto"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvPrecio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:text="@string/precioprod"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/fechacompraprod2"
+            android:textAlignment="center" />
+
+
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingTop="8dp"
+            android:paddingBottom="10dp"
+            android:text="@string/fechacompra"
+            android:textSize="15sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="8dp">
+
+
+            <ImageView
+                android:id="@+id/imageButton2"
+                android:layout_width="71dp"
+                android:layout_height="62dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/todo"
+                tools:src="@drawable/ic_baseline_insert_photo_24" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:text="@string/titulo_del_producto"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvPrecio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:text="@string/precioprod"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/fechacompraprod"
+            android:textAlignment="center" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="8dp">
+
+
+            <ImageView
+                android:id="@+id/imageButton2"
+                android:layout_width="71dp"
+                android:layout_height="62dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/todo"
+                tools:src="@drawable/ic_baseline_insert_photo_24" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:text="@string/titulo_del_producto"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvPrecio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:text="@string/precioprod"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/fechacompraprod4"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</ScrollView>
