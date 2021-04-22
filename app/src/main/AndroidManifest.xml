@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoDSM">
+<<<<<<< HEAD
         <activity android:name=".CarritodeCompra"></activity>
+=======
+        <activity android:name=".DetalleProducto"></activity>
+>>>>>>> gabrielaDesarrollo
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
