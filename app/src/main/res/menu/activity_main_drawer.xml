@@ -20,5 +20,9 @@
             android:id="@+id/nav_carritocompras"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="carrito" />
+        <item
+            android:id="@+id/nav_inforArticulo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="InformacionArticulo" />
     </group>
 </menu>
